@@ -1,1 +1,17 @@
-eqsfsdf
+.boutonListe{
+text-align: center;
+}
+
+.imageCenter{
+
+	display: flex;	
+	flex-wrap: wrap;
+	
+}
+
+/*.imageCenter img{
+	display
+	flex-wrap: wrap;
+	
+	
+}*/
