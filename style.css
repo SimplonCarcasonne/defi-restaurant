@@ -1,38 +1,41 @@
 body{
-    font-family: 'Bitter', serif;     /*Intégration d'une police d'ecriture*/
-    background-color: #F5F2E9 ;        /*Couleur du background du body html*/
+	font-family: 'Bitter', serif;     /*Intégration d'une police d'ecriture*/
+ 	background-color: #F5F2E9 ;        /*Couleur du background du body html*/
 }
 
 .conteneur{
 
-    display: flex;                    /*Intégration de la flex-box pour les éléments du .conteneur*/
-    justify-content: center;        /*Mise au centre des éléments dans .conteneur*/
-    flex-wrap: wrap;                /*Retour a la ligne pour les éléments dans .conteneur*/
-    margin : 25px;                    /*Mise en place d'une marge générale pour les élément dans .conteneur*/
+    display: flex;					/*Intégration de la flex-box pour les éléments du .conteneur*/
+    justify-content: center;		/*Mise au centre des éléments dans .conteneur*/
+    flex-wrap: wrap;				/*Retour a la ligne pour les éléments dans .conteneur*/
+    margin : 25px;					/*Mise en place d'une marge générale pour les élément dans .conteneur*/
 }
 
 #margeTitre{
-    margin-top: 50px;                /*Marge de 50pixel entre le header et le titre categories*/
-    color: #E35654 ;                    /*Couleur du titre Categories*/
+    margin-top: auto;				/*Marge de 50pixel entre le header et le titre categories*/
+    color: #E35654 ;				/*Couleur du titre Categories*/
 
 }
 
 
 .styleCenter{
 
-    text-align: center;                /*Commande pour centrer le paragraphe*/
+    text-align: center;				/*Commande pour centrer le paragraphe*/
 
 }
 
 .tailleImage{
 
-    width: 300px;                    /*Largeur/hauteur des images comprises dans .tailleImage*/
-    height: 300px;
+	width: 300px;					/*Largeur/hauteur des images comprises dans .tailleImage*/
+	height: 300px;
 }
 
 .tailleImage:hover {
-    opacity : 0.5;                    /*Filtre en hover sur les images dans .taimeImage*/
-    background: #E35654 ;
+	background: #E35654 ;
+	opacity : 0.5;
+    
+                       /*Filtre en hover sur les images dans .taimeImage*/
+    
 }
 .blocImage{
     width: 300px;
@@ -80,6 +83,6 @@ body{
 
 #margeFin{
 
-    margin-bottom: 50px;            /*Marge entre le dernier bouton clickable et le footer*/
+    margin-bottom: auto;            /*Marge entre le dernier bouton clickable et le footer*/
 }
 
